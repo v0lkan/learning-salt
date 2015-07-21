@@ -1,0 +1,7 @@
+ubuntu:
+  provider: linode
+  size: foo
+  image: Ubuntu LTS
+  location: Atlanta, GA
+  minion:
+    master: 65.12.144.103

@@ -1,0 +1,15 @@
+file_roots:
+  base:
+    - /srv/salt
+  webserver:
+    - /srv/web
+
+pillar_roots:
+  base:
+    - /srv/pillar
+  webserver:
+    - /srv/pillar-web
+
+  reactor:
+    - 'salt/custom/*':
+      - salt://reactor.sls

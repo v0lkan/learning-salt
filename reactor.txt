@@ -1,0 +1,6 @@
+- event system built into salt.
+- how to fire events.
+- how to create reactions to events.
+
+goal: make an asynchronous platform feel synchronous in practice.
+
